@@ -31,8 +31,18 @@ Geeks-Grammar/
 └─ frontend/
 
 ## Video Walkthrough of the project
+
 (https://drive.google.com/drive/folders/1sz5gJuOOnVqQlqHFmhDIozCe1qNPqU45?usp=drive_link)
 
+## BasicUI
+![Screenshot 2024-04-19 170139](https://github.com/Nidhis2608/GrammerChecker/assets/147751671/c45aa758-899a-4008-9008-94009f7a49bb)
+## Entering Text
+
+![Screenshot 2024](https://github.com/Nidhis2608/GrammerChecker/assets/147751671/18d76bff-1936-491b-99f9-0e51653e85dc)
+
+## Corrected Grammar Sentence
+
+![WhatsApp Image 2024-04-19 at 17 03 13_a90984ca](https://github.com/Nidhis2608/GrammerChecker/assets/147751671/1fa18e9f-eb26-4851-9d19-548fc466835a)
 
 
 ## Features
