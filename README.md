@@ -1,9 +1,9 @@
-# Geeks Grammar
+# Geeks Grammar 🔔
 
 ## Introduction
 **Geeks Grammar** is an AI-powered web application designed to assist users in improving their grammar and writing skills. Leveraging the power of AI, Geeks Grammar offers advanced grammar checking capabilities to help users produce high-quality written content.
 
-## Technology Stack
+## Technology Stack ✍️
 - **Frontend:**
   - React 
   - Next.js
@@ -34,9 +34,9 @@ Geeks-Grammar/
 
 (https://drive.google.com/drive/folders/1sz5gJuOOnVqQlqHFmhDIozCe1qNPqU45?usp=drive_link)
 
-## BasicUI
+## BasicUI 🖊️
 ![Screenshot 2024-04-19 170139](https://github.com/Nidhis2608/GrammerChecker/assets/147751671/c45aa758-899a-4008-9008-94009f7a49bb)
-## Entering Text
+## Entering Text✍️
 
 ![Screenshot 2024](https://github.com/Nidhis2608/GrammerChecker/assets/147751671/18d76bff-1936-491b-99f9-0e51653e85dc)
 
