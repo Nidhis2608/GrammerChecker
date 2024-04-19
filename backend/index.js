@@ -10,7 +10,7 @@ app.use(cors(),express.json());
 
 
 
-app.post("/",async(req,res)=>{
+app.post("/add",async(req,res)=>{
   try{
     const{dish}=req.body;
     const prompt = `check grammer for this sentence ${dish}`

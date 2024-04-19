@@ -44,7 +44,7 @@ function App() {
     setFixed(true);
     setLoading(true);
 
-    fetch('http://localhost:3000/', {
+    fetch('http://localhost:3000/add', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ dish: text })
