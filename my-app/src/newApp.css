@@ -1,0 +1,248 @@
+/* .main-container{
+    background-color: #9EC8B9;
+} */
+
+.container {
+    width: 80%;
+    height: 100%;
+    background-color: #80BCBD;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-left: 8rem;
+    /* margin-right: 0rem; */
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .textarea {
+    resize: none;
+    width: 100%;
+    height: 12rem;
+    background-color: #edf2f7;
+    border: 2px solid #cbd5e0;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    padding-right: 6px;
+    color: #2d3748;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  .word-count-text {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #2d3748;
+  }
+  
+  .green-dot {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #48bb78;
+    border-radius: 50%;
+  }
+  
+  .neutral-dot {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #a0aec0;
+    border-radius: 50%;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fix-button {
+    background-color: #135D66;
+    color: #ffffff;
+    border: none;
+    border-radius: 999px;
+    padding: 0.75rem 2rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .fix-button:hover {
+    background-color: #3182ce;
+  }
+  
+  .disabled-button {
+    background-color: #a0aec0;
+    color: #718096;
+    border: none;
+    border-radius: 999px;
+    padding: 0.75rem 2rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: not-allowed;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 5px 10px;  
+    font-size: 2px;
+  }
+  
+  .message-container {
+    width: 100%;
+    margin-top: 1rem;.container {
+        width: 100%;
+        height: 100%;
+        background-color: #f7fafc;
+        border-radius: 1rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 2rem;
+      }
+      
+      .form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+      
+      .textarea {
+        resize: none;
+        width: 100%;
+        height: 12rem;
+        background-color: #edf2f7;
+        border: 2px solid #cbd5e0;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        font-size: 1.1rem;
+        color: #2d3748;
+      }
+      
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+      }
+      
+      .word-count-text {
+        font-weight: 700;
+        font-size: 1.2rem;
+        color: #2d3748;
+      }
+      
+      .green-dot {
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: #48bb78;
+        border-radius: 50%;
+      }
+      
+      .neutral-dot {
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: #a0aec0;
+        border-radius: 50%;
+      }
+      
+      .show {
+        display: block;
+      }
+      
+      .hidden {
+        display: none;
+      }
+      
+      .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .fix-button {
+        background-color: #4299e1;
+        color: #ffffff;
+        border: none;
+        border-radius: 999px;
+        padding: 0.75rem 2rem;
+        font-weight: 700;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .fix-button:hover {
+        background-color: #3182ce;
+      }
+      
+      .disabled-button {
+        background-color: #a0aec0;
+        color: #718096;
+        border: none;
+        border-radius: 999px;
+        padding: 0.75rem 2rem;
+        font-weight: 700;
+        font-size: 1.1rem;
+        cursor: not-allowed;
+      }
+      
+      .action-buttons {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      
+      .message-container {
+        width: 100%;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .message {
+        background-color: #2D9596;
+        color: #ffffff;
+        border-radius: 0.5rem;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+      }
+      
+      .invisible-message {
+        color: #718096;
+      }
+      
+    display: flex;
+    justify-content: center;
+  }
+  
+  .message {
+    background-color: #38a169;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  
+  .invisible-message {
+    color: #718096;
+  }
+  
