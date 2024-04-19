@@ -20,11 +20,14 @@ Fullstack using OpenAI Key
 
 ## Deployed App
 Frontend:[https://grammer-checker-1lav.vercel.app/]
+
 Backend: [https://geeks-grammar-backend.herokuapp.com/](https://geeks-grammar-backend.herokuapp.com/)
 
 ## Directory Structure
 Geeks-Grammar/
+
 ├─ backend/
+
 └─ frontend/
 
 ## Video Walkthrough of the project
