@@ -6,7 +6,6 @@
 ## Technology Stack ✍️
 - **Frontend:**
   - React 
-  - Next.js
   - ChakraUI
   - Bootstrap
 - **Backend:**
