@@ -44,7 +44,10 @@ function App() {
     setFixed(true);
     setLoading(true);
 
-    fetch('http://localhost:3000/add', {
+    fetch(
+      // 'http://localhost:3000/add'
+      "https://grammerchecker.onrender.com/add"
+      , {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ dish: text })

@@ -1,0 +1,54 @@
+
+/* CSS for Navbar component */
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar-logo {
+    position: absolute;
+    left: 20px;
+    height: 60px;
+    width: auto;
+  }
+  
+  .navbar-title {
+    font-size: 6rem; /* Start with a base font size */
+    color: #1B4242;
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 992px) {
+    .navbar {
+      height: 80px;
+    }
+  
+    .navbar-logo {
+      left: 10px; /* Adjust the logo position for smaller screens */
+    }
+  
+    .navbar-title {
+      font-size: 1.5rem; /* Smaller font size for smaller devices */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-logo {
+      position: static;
+      margin-right: 20px; /* Prevent logo from overlapping with title on very small screens */
+    }
+  
+    .navbar {
+      flex-direction: column;
+      height: auto;
+      padding: 10px 0;
+    }
+  
+    .navbar-title {
+      margin-top: 10px; /* Provide spacing between logo and title when stacked */
+      font-size: 1.2rem; /* Even smaller font size for mobile devices */
+    }
+  }
+  

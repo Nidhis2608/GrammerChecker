@@ -1,23 +1,17 @@
 import React from 'react';
 import Logo from "./GCLogo.svg"; // Ensure the file path is correct
+import "./Navbar.css"
 
 const Navbar = () => {
   return (
     <>
-    <nav className="navbar bg-dark border-bottom border-body" data-bs-theme="dark" style={{ position: 'relative', height: '100px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      {/* Logo with specific positioning */}
-      <img src={Logo} alt="Grammar Checker Logo" height="60" width="150" style={{ position: 'absolute', left: '100px' }}/>
-      {/* Centered title */}
-      <h1 style={{ fontSize: '50px', color:"#1B4242"}}>Grammar Checker</h1>
-
-    </nav>
-
-      {/* <nav className="navbar bg-primary" data-bs-theme="dark">
-      Grammer Checker
-      </nav> */}
+      <nav className="navbar bg-dark border-bottom border-body" style={{ position: 'relative', height: '100px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <img src={Logo} alt="Grammar Checker Logo" className="navbar-logo" />
+        <h1 className="navbar-title">Grammar Checker</h1>
+      </nav>
 
       <nav className="navbar" style={{ backgroundColor: '#e3f2fd' }}>
-        {/* Navbar content */}
+        {/* Additional Navbar content can be added here */}
       </nav>
     </>
   );
